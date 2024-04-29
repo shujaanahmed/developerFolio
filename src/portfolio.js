@@ -49,74 +49,74 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Passionate about learning new technologies and applying them in industry with focus on application developmen and design for the betterment of the society.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "☁ Develop highly interactive and currently used Banking portals for Investment companies."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("✨ Possess strong command over Java Database Connectivity (JDBC) and Enterprise JavaBeans (EJB)"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🎯 Proficient in Databases including but not limited to PL/SQL, MS SQL Server."
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+  // softwareSkills: [
+  //   {
+  //     skillName: "html-5",
+  //     fontAwesomeClassname: "fab fa-html5"
+  //   },
+  //   {
+  //     skillName: "css3",
+  //     fontAwesomeClassname: "fab fa-css3-alt"
+  //   },
+  //   {
+  //     skillName: "sass",
+  //     fontAwesomeClassname: "fab fa-sass"
+  //   },
+  //   {
+  //     skillName: "JavaScript",
+  //     fontAwesomeClassname: "fab fa-js"
+  //   },
+  //   {
+  //     skillName: "reactjs",
+  //     fontAwesomeClassname: "fab fa-react"
+  //   },
+  //   {
+  //     skillName: "nodejs",
+  //     fontAwesomeClassname: "fab fa-node"
+  //   },
+  //   {
+  //     skillName: "swift",
+  //     fontAwesomeClassname: "fab fa-swift"
+  //   },
+  //   {
+  //     skillName: "npm",
+  //     fontAwesomeClassname: "fab fa-npm"
+  //   },
+  //   {
+  //     skillName: "sql-database",
+  //     fontAwesomeClassname: "fas fa-database"
+  //   },
+  //   {
+  //     skillName: "aws",
+  //     fontAwesomeClassname: "fab fa-aws"
+  //   },
+  //   {
+  //     skillName: "firebase",
+  //     fontAwesomeClassname: "fas fa-fire"
+  //   },
+  //   {
+  //     skillName: "python",
+  //     fontAwesomeClassname: "fab fa-python"
+  //   },
+  //   {
+  //     skillName: "docker",
+  //     fontAwesomeClassname: "fab fa-docker"
+  //   }
+  // ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,23 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Hamdard University",
+      // logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      duration: "2017",
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "FAST National University",
+      // logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "2008-2012",
+      desc: "Took courses about Software Engineering, Web Security, Operating Systems, ",
+      descBullets: ["Part of WebMasters at FAST University"]
     }
   ]
 };
@@ -150,7 +150,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
