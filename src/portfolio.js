@@ -127,9 +127,9 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Hamdard University",
-      // logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "2017",
+      duration: "2017-2019"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -174,10 +174,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Deputy Manager",
+      company: "CDC",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "Jul 2022-Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,19 +185,34 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Assistant Manager",
+      company: "CDC",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "July 2017-June 2022",
+      desc: "Maintained exceptionally high standards of design and code quality at all times including adherence to performance standards. Consistently delivered project tasks on time and with desired quality standards."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Senior Software Engineer ",
+      company: "CDC",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      date: "Jul 2015-Jun 2017",
+      desc: "Documented and translated business requirements into functional and technical specifications. Wrote and performed unit tests, integration tests. Reviewed and debugged code."
+    },
+    {
+      role: "Software Engineer",
+      company: "CDC",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Sep 2013-Jun 2015",
+      desc: " Developed and maintained high-performance, secure software applications using proven frameworks."
+    },
+    {
+      role: "Junior Software Developer",
+      company: "JS Global Capital Ltd.",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jun 2009 - Jul 2009",
+      desc: " Developed and maintained high-performance, secure software applications using proven frameworks."
+    },
+    
   ]
 };
 
