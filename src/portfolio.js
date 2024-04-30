@@ -178,10 +178,10 @@ const workExperiences = {
       company: "CDC",
       companylogo: require("./assets/images/cdc.jpg"),
       date: "Jul 2022-Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+         "Diagnose and resolve software issues efficiently,conducted ffectivecode reviews, and estimate project work accurately while communicating risks and issues.",
+        "Collaborate effectively with development teams, QA, business analysts, architects, stakeholders, and contribute to defining technical strategy."
       ]
     },
     {
@@ -206,11 +206,18 @@ const workExperiences = {
       desc: " Developed and maintained high-performance, secure software applications using proven frameworks."
     },
     {
+      role: "Software Engineer",
+      company: "JS Global Capital Ltd.",
+      companylogo: require("./assets/images/js.png"),
+      date: "Jul 2013- Sep 2013",
+      desc: "Interned with JS Global Capital Limited in the Information Technology Department"
+    },
+    {
       role: "Junior Software Developer",
       company: "JS Global Capital Ltd.",
       companylogo: require("./assets/images/js.png"),
       date: "Jun 2009 - Jul 2009",
-      desc: " Developed and maintained high-performance, secure software applications using proven frameworks."
+      desc: "Interned with JS Global Capital Limited in the Information Technology Department"
     },
     
   ]
@@ -254,7 +261,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
