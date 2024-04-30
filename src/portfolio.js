@@ -177,7 +177,7 @@ const workExperiences = {
       role: "Deputy Manager",
       company: "CDC",
       companylogo: require("./assets/images/cdc.jpg"),
-      date: "Jul 2022-Present",
+      date: "Jul 2022 - Present",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
          "Diagnose and resolve software issues efficiently,conducted ffectivecode reviews, and estimate project work accurately while communicating risks and issues.",
@@ -188,29 +188,29 @@ const workExperiences = {
       role: "Assistant Manager",
       company: "CDC",
       companylogo: require("./assets/images/cdc.jpg"),
-      date: "July 2017-June 2022",
+      date: "July 2017 - June 2022",
       desc: "Maintained exceptionally high standards of design and code quality at all times including adherence to performance standards. Consistently delivered project tasks on time and with desired quality standards."
     },
     {
       role: "Senior Software Engineer ",
       company: "CDC",
       companylogo: require("./assets/images/cdc.jpg"),
-      date: "Jul 2015-Jun 2017",
+      date: "Jul 2015 - Jun 2017",
       desc: "Documented and translated business requirements into functional and technical specifications. Wrote and performed unit tests, integration tests. Reviewed and debugged code."
     },
     {
       role: "Software Engineer",
       company: "CDC",
       companylogo: require("./assets/images/cdc.jpg"),
-      date: "Sep 2013-Jun 2015",
-      desc: " Developed and maintained high-performance, secure software applications using proven frameworks."
+      date: "Sep 2013 - Jun 2015",
+      desc: "Developed and maintained high-performance, secure software applications using proven frameworks."
     },
     {
       role: "Software Engineer",
-      company: "JS Global Capital Ltd.",
-      companylogo: require("./assets/images/js.png"),
-      date: "Jul 2013- Sep 2013",
-      desc: "Interned with JS Global Capital Limited in the Information Technology Department"
+      company: "Doozie Labs",
+      companylogo: require("./assets/images/dlabz.png"),
+      date: "Jul 2013 - Sep 2013",
+      desc: "Android development internship, also did Java Programming."
     },
     {
       role: "Junior Software Developer",
@@ -228,7 +228,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
