@@ -232,11 +232,12 @@ const bigProjects = {
       //   }
       //   //  you can add extra buttons here.
       // ]
-    },{
-      image: require("./assets/images/cdc.jpg"),
-      projectName: "Digital AMC Web Services",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
+      //{
+    //   image: require("./assets/images/cdc.jpg"),
+    //   projectName: "Digital AMC Web Services",
+    //   projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    // },
     {
       image: require("./assets/images/cdc.jpg"),
       projectName: "EasyPaisa Mini App Web Services",
@@ -253,11 +254,6 @@ const bigProjects = {
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
     {
-      image: require("./assets/images/cdc.jpg"),
-      projectName: "Multimaster replication (alternative of oracle goldengate)",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
-    },
-   {
       image: require("./assets/images/cdc.jpg"),
       projectName: "EMLAAK Web Services",
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
