@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
+  username: "Shujaan Ahmed",
   title: "Hi all, I'm Shujaan",
   subTitle: emoji(
     "I am software engineer with several years of experience working on web and desktop applications. Currently, I work as a Software Engineer at CDC - Central Depository Company of Pakistan"
@@ -138,7 +138,7 @@ const educationInfo = {
     },
     {
       schoolName: "FAST National University",
-      // logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2008-2012",
       desc: "Took courses about Software Engineering, Web Security, Operating Systems, ",
