@@ -127,7 +127,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Hamdard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/hamdard.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "2017-2019"
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -138,7 +138,7 @@ const educationInfo = {
     },
     {
       schoolName: "FAST National University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/fast.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2008-2012",
       desc: "Took courses about Software Engineering, Web Security, Operating Systems, ",
@@ -150,7 +150,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
