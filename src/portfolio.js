@@ -219,7 +219,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PROJECTS I CREATED FOR COMPANIES",
   projects: [
     {
       image: require("./assets/images/cdc.jpg"),
@@ -252,7 +252,21 @@ const bigProjects = {
       projectName: " NADRA Valyses Integration",
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
-   
+    {
+      image: require("./assets/images/cdc.jpg"),
+      projectName: "Multimaster replication (alternative of oracle goldengate)",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    },
+   {
+      image: require("./assets/images/cdc.jpg"),
+      projectName: "EMLAAK Web Services",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    },
+    {
+      image: require("./assets/images/cdc.jpg"),
+      projectName: "KuickPay Integration",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
