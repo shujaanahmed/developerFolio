@@ -127,7 +127,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Hamdard University",
-      logo: require("./assets/images/hamdard.png"),
+      logo: require("./assets/images/hamdard.jpg"),
       subHeader: "Master of Science in Computer Science",
       duration: "2017-2019"
       // desc: "Participated in the research of XXX and published 3 papers.",
