@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Deputy Manager",
       company: "CDC",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/cdc.jpg"),
       date: "Jul 2022-Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -187,28 +187,28 @@ const workExperiences = {
     {
       role: "Assistant Manager",
       company: "CDC",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/cdc.jpg"),
       date: "July 2017-June 2022",
       desc: "Maintained exceptionally high standards of design and code quality at all times including adherence to performance standards. Consistently delivered project tasks on time and with desired quality standards."
     },
     {
       role: "Senior Software Engineer ",
       company: "CDC",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/cdc.jpg"),
       date: "Jul 2015-Jun 2017",
       desc: "Documented and translated business requirements into functional and technical specifications. Wrote and performed unit tests, integration tests. Reviewed and debugged code."
     },
     {
       role: "Software Engineer",
       company: "CDC",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/cdc.jpg"),
       date: "Sep 2013-Jun 2015",
       desc: " Developed and maintained high-performance, secure software applications using proven frameworks."
     },
     {
       role: "Junior Software Developer",
       company: "JS Global Capital Ltd.",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/js.png"),
       date: "Jun 2009 - Jul 2009",
       desc: " Developed and maintained high-performance, secure software applications using proven frameworks."
     },
@@ -315,7 +315,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -339,7 +339,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -358,7 +358,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
