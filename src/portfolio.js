@@ -241,33 +241,34 @@ const bigProjects = {
     {
   image: require("./assets/images/cdc.jpg"),
   projectName: "Fund Management System Portal",
-  projectDesc: "Specifically designed for the Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that streamline transactions for Fund Managers",
+  projectDesc: "This portal is specifically tailored for the Mutual Funds Industry, offering a comprehensive suite of integrated modules that streamline transactions, enhance reporting capabilities, and provide advanced portfolio management tools for Fund Managers",
 },
 {
   image: require("./assets/images/cdc.jpg"),
   projectName: "EasyPaisa Mini App Web Services",
-  projectDesc: "Tailored for the Mutual Funds Industry, EasyPaisa Mini App Web Services offer a comprehensive suite of integrated modules to simplify transactions for Fund Managers",
+  projectDesc: "EasyPaisa Mini App Web Services are designed to seamlessly integrate with the Mutual Funds Industry, providing a user-friendly interface, real-time transaction processing, and personalized investment recommendations for Fund Managers and investors alike",
 },
 {
   image: require("./assets/images/cdc.jpg"),
   projectName: "1Link Integration",
-  projectDesc: "Customized for the Mutual Funds Industry, 1Link Integration provides a comprehensive suite of integrated modules to facilitate transactions for Fund Managers",
+  projectDesc: "Customized for the Mutual Funds Industry, 1Link Integration delivers secure and efficient payment processing solutions, seamless fund transfers, and automated reconciliation features, ensuring smooth operations for Fund Managers and their clients",
 },
 {
   image: require("./assets/images/cdc.jpg"),
   projectName: "NADRA Valyses Integration",
-  projectDesc: "Created for the Mutual Funds Industry, NADRA Valyses Integration offers a comprehensive suite of integrated modules to streamline transactions for Fund Managers",
+  projectDesc: "NADRA Valyses Integration offers cutting-edge identity verification and authentication services for the Mutual Funds Industry, ensuring regulatory compliance, fraud prevention, and enhanced security for Fund Managers and investors",
 },
 {
   image: require("./assets/images/cdc.jpg"),
   projectName: "EMLAAK Web Services",
-  projectDesc: "Designed specifically for the Mutual Funds Industry, EMLAAK Web Services offer a comprehensive suite of integrated modules to simplify transactions for Fund Managers",
+  projectDesc: "EMLAAK Web Services provide advanced property management solutions integrated with the Mutual Funds Industry, enabling Fund Managers to efficiently manage real estate assets, conduct valuations, and make data-driven investment decisions",
 },
 {
   image: require("./assets/images/cdc.jpg"),
   projectName: "KuickPay Integration",
-  projectDesc: "Tailored for the Mutual Funds Industry, KuickPay Integration provides a comprehensive suite of integrated modules to facilitate transactions for Fund Managers",
+  projectDesc: "KuickPay Integration offers fast and secure payment processing solutions tailored for the Mutual Funds Industry, with features such as multi-currency support, customizable payment options, and real-time transaction monitoring for Fund Managers and investors",
 },
+
 
   ],
   display: true // Set false to hide this section, defaults to true
