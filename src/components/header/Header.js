@@ -24,7 +24,7 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
-  const viewProjects = StartupProject.display;
+  const viewProjects = bigProjects.display;
 
   return (
     <Headroom>
