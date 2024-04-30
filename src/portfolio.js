@@ -221,10 +221,10 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME PROJECTS I CREATED FOR COMPANIES",
   projects: [
-    {
-      image: require("./assets/images/cdc.jpg"),
-      projectName: "Fund Management System Portal",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers",
+  //   {
+  //     image: require("./assets/images/cdc.jpg"),
+  //     projectName: "Fund Management System Portal",
+  //     projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -232,37 +232,43 @@ const bigProjects = {
       //   }
       //   //  you can add extra buttons here.
       // ]
-    },
+    // },
       //{
     //   image: require("./assets/images/cdc.jpg"),
     //   projectName: "Digital AMC Web Services",
     //   projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     // },
     {
-      image: require("./assets/images/cdc.jpg"),
-      projectName: "EasyPaisa Mini App Web Services",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
-    },
-    {
-      image: require("./assets/images/cdc.jpg"),
-      projectName: "1Link Integration",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
-    },
-    {
-      image: require("./assets/images/cdc.jpg"),
-      projectName: " NADRA Valyses Integration",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
-    },
-    {
-      image: require("./assets/images/cdc.jpg"),
-      projectName: "EMLAAK Web Services",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
-    },
-    {
-      image: require("./assets/images/cdc.jpg"),
-      projectName: "KuickPay Integration",
-      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
-    },
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "Fund Management System Portal",
+  projectDesc: "Specifically designed for the Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that streamline transactions for Fund Managers",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "EasyPaisa Mini App Web Services",
+  projectDesc: "Tailored for the Mutual Funds Industry, EasyPaisa Mini App Web Services offer a comprehensive suite of integrated modules to simplify transactions for Fund Managers",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "1Link Integration",
+  projectDesc: "Customized for the Mutual Funds Industry, 1Link Integration provides a comprehensive suite of integrated modules to facilitate transactions for Fund Managers",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "NADRA Valyses Integration",
+  projectDesc: "Created for the Mutual Funds Industry, NADRA Valyses Integration offers a comprehensive suite of integrated modules to streamline transactions for Fund Managers",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "EMLAAK Web Services",
+  projectDesc: "Designed specifically for the Mutual Funds Industry, EMLAAK Web Services offer a comprehensive suite of integrated modules to simplify transactions for Fund Managers",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "KuickPay Integration",
+  projectDesc: "Tailored for the Mutual Funds Industry, KuickPay Integration provides a comprehensive suite of integrated modules to facilitate transactions for Fund Managers",
+},
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
