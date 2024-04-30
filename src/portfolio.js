@@ -222,7 +222,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cdc.jpg"),
       projectName: "Fund Management System Portal",
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers",
       // footerLink: [
@@ -233,22 +233,22 @@ const bigProjects = {
       //   //  you can add extra buttons here.
       // ]
     },{
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cdc.jpg"),
       projectName: "Digital AMC Web Services",
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cdc.jpg"),
       projectName: "EasyPaisa Mini App Web Services",
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cdc.jpg"),
       projectName: "1Link Integration",
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cdc.jpg"),
       projectName: " NADRA Valyses Integration",
       projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
