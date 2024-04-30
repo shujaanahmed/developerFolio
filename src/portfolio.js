@@ -223,29 +223,38 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      projectName: "Fund Management System Portal",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },{
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Digital AMC Web Services",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "EasyPaisa Mini App Web Services",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "1Link Integration",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: " NADRA Valyses Integration",
+      projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    },
+   
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -258,9 +267,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Certificate of Achievement",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Trustee &Custodial Business Training Program”",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
