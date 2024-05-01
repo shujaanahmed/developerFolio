@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  // github: "https://github.com/saadpasta",
+  github: "https://github.com/shujaanahmed",
   linkedin: "https://www.linkedin.com/in/shujaan-ahmed/",
   gmail: "shujaan.ahmed@live.com",
   gitlab: "https://gitlab.com/saadpasta",
@@ -81,22 +81,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -113,8 +97,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -235,33 +219,59 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PROJECTS I CREATED FOR COMPANIES",
   projects: [
+  //   {
+  //     image: require("./assets/images/cdc.jpg"),
+  //     projectName: "Fund Management System Portal",
+  //     projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    // },
+      //{
+    //   image: require("./assets/images/cdc.jpg"),
+    //   projectName: "Digital AMC Web Services",
+    //   projectDesc: "Specifically designed for Mutual Funds Industry, FMS is a comprehensive suite of integrated modules that ease transactions for Fund Managers"
+    // },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "Fund Management System Portal",
+  projectDesc: "This portal is specifically tailored for the Mutual Funds Industry, offering a comprehensive suite of integrated modules that streamline transactions, enhance reporting capabilities, and provide advanced portfolio management tools for Fund Managers",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "EasyPaisa Mini App Web Services",
+  projectDesc: "EasyPaisa Mini App Web Services are designed to seamlessly integrate with the Mutual Funds Industry, providing a user-friendly interface, real-time transaction processing, and personalized investment recommendations for Fund Managers and investors alike",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "1Link Integration",
+  projectDesc: "Customized for the Mutual Funds Industry, 1Link Integration delivers secure and efficient payment processing solutions, seamless fund transfers, and automated reconciliation features, ensuring smooth operations for Fund Managers and their clients",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "NADRA Valyses Integration",
+  projectDesc: "NADRA Valyses Integration offers cutting-edge identity verification and authentication services for the Mutual Funds Industry, ensuring regulatory compliance, fraud prevention, and enhanced security for Fund Managers and investors",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "EMLAAK Web Services",
+  projectDesc: "EMLAAK Web Services provide advanced property management solutions integrated with the Mutual Funds Industry, enabling Fund Managers to efficiently manage real estate assets, conduct valuations, and make data-driven investment decisions",
+},
+{
+  image: require("./assets/images/cdc.jpg"),
+  projectName: "KuickPay Integration",
+  projectDesc: "KuickPay Integration offers fast and secure payment processing solutions tailored for the Mutual Funds Industry, with features such as multi-currency support, customizable payment options, and real-time transaction monitoring for Fund Managers and investors",
+},
+
+
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -274,9 +284,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Certificate of Achievement",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Trustee &Custodial Business Training Program”",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
